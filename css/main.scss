@@ -9,6 +9,7 @@ $accent:#FEDB3F;
 $accentHover: #FFD517;
 $btnSecondAccent: #FFD517;
 $advangesBgIcon: #F2F5F4;
+$bgReviews: #F8FAF9;
 
 //z-index
 
@@ -35,6 +36,8 @@ $z-fixed: 50;
 @import 'blocks/advantages';
 @import 'blocks/advantage';
 @import 'blocks/reviews';
+@import 'blocks/reviews-another';
+//@import 'blocks/reviews-avatar';
 @import 'blocks/interactive-avatar';
 @import 'blocks/form';
 @import 'blocks/form-section';
