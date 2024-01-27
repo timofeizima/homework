@@ -1,0 +1,43 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//colors
+$textColor:#666666;
+$colorDark: #292929;
+$colorLight: #ffffff;
+$accent:#FEDB3F;
+$accentHover: #FFD517;
+$btnSecondAccent: #FFD517;
+$advangesBgIcon: #F2F5F4;
+
+//z-index
+
+$z-fixed: 50;
+
+
+
+//normalize
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
+// setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import 'layout';
+
+//components
+@import 'blocks/hero';
+@import 'blocks/header';
+@import 'blocks/features';
+@import 'blocks/feature';
+@import 'blocks/btn';
+@import 'blocks/section';
+@import 'blocks/headline';
+@import 'blocks/advantages';
+@import 'blocks/advantage';
+@import 'blocks/reviews';
+@import 'blocks/interactive-avatar';
+@import 'blocks/form';
+@import 'blocks/form-section';
+@import 'blocks/radio';
+@import 'blocks/fixed-menu';
+@import 'blocks/map';

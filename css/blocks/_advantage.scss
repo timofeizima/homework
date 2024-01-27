@@ -1,0 +1,40 @@
+.advantage {
+    text-align: center;
+}
+
+.advantage__image {
+    margin-bottom: 10px;
+
+    &-wrapper {
+        display: inline-block;
+        width: 128px;
+        height: 128px;
+        position: relative;
+        background: $advangesBgIcon;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+}
+
+.advantage__icon {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.advantage__title {
+    font-size: 27px;
+    line-height: 33px;
+    font-weight: 700;
+    margin-bottom: 21px;
+}
+
+.advantage__desc {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+}
