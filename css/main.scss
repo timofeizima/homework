@@ -25,7 +25,7 @@ $z-fixed: 50;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 @import 'layout';
 
-//components
+//blocks
 @import 'blocks/hero';
 @import 'blocks/header';
 @import 'blocks/features';
@@ -36,8 +36,6 @@ $z-fixed: 50;
 @import 'blocks/advantages';
 @import 'blocks/advantage';
 @import 'blocks/reviews';
-@import 'blocks/reviews-another';
-//@import 'blocks/reviews-avatar';
 @import 'blocks/interactive-avatar';
 @import 'blocks/form';
 @import 'blocks/form-section';

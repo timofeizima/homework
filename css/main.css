@@ -126,6 +126,10 @@ img {
           justify-content: space-between;
 }
 
+.logo {
+  margin-right: 0;
+}
+
 .menu__list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -355,18 +359,23 @@ img {
   line-height: 21px;
 }
 
-/*.reviews__display {
-    background: #F8FAF9;
-    padding: 42px;
-    margin-bottom: 15px;
+.reviews__display {
+  background: #F8FAF9;
+  padding: 42px;
+  margin-bottom: 15px;
 }
+
 .reviews__display-inner {
-    display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
+
 .reviews__avatar {
-    width: 253px;
-    height: 264px;
-}*/
+  width: 253px;
+  height: 264px;
+}
+
 .reviews__avatar-img {
   -o-object-fit: cover;
      object-fit: cover;
@@ -374,26 +383,32 @@ img {
   height: 100%;
 }
 
-/*.reviews__content {
-    flex: 1;
-    margin-left: 40px;
-    padding-top: 26px;
+.reviews__content {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 40px;
+  padding-top: 26px;
 }
+
 .reviews__title {
-    font-size: 27px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}*/
-/*.reviews__text {
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 22px;
-    padding-right: 100px;
-    margin-bottom: 25px;
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
+
+.reviews__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  padding-right: 100px;
+  margin-bottom: 25px;
+}
+
 .reviews__author {
-    font-weight: 700;
-}*/
+  font-weight: 700;
+}
+
 .reviews__switcher {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -401,47 +416,6 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.reviews__selected {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background: #F8FAF9;
-  padding: 41px 90px 40px 40px;
-  margin-bottom: 15px;
-}
-.reviews__content {
-  padding: 30px 40px 30px 40px;
-}
-
-.reviews__img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.reviews__title {
-  font-weight: 700;
-  font-size: 27px;
-  line-height: 32px;
-  margin-bottom: 14px;
-}
-
-.reviews__text {
-  font-weight: 400;
-  line-height: 22px;
-  margin-bottom: 25px;
-}
-
-.reviews__author {
-  font-weight: 500;
-  line-height: 24px;
-  color: #292929;
 }
 
 .interactive-avatar {
