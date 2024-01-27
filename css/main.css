@@ -127,7 +127,7 @@ img {
 }
 
 .logo {
-  margin-right: 0;
+  margin-right: 46px;
 }
 
 .menu__list {
@@ -137,10 +137,11 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-right: 50px;
 }
 
 .menu__item {
-  margin-right: 15px;
+  margin-right: 25px;
 }
 .menu__item:last-child {
   margin-right: 0;
@@ -155,6 +156,13 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.phone-number__text {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 18px;
+  margin-right: 0;
 }
 
 .phone-number__icon-elem {
@@ -476,6 +484,9 @@ img {
   display: flex;
   margin-bottom: 10px;
 }
+.form__row:last-child {
+  margin-bottom: 0;
+}
 
 .form__block {
   -webkit-box-flex: 1;
@@ -539,6 +550,10 @@ img {
   margin-bottom: 16px;
   margin-right: 20px;
 }
+.radio:last-child {
+  margin-bottom: 0;
+  margin-right: 0;
+}
 .radio--checkbox .radio__visible {
   border-radius: 3px;
 }
@@ -588,6 +603,9 @@ img {
 
 .fixed-menu__item {
   margin-bottom: 5px;
+}
+.fixed-menu__item:last-child {
+  margin-bottom: 0;
 }
 .fixed-menu__item--active .fixed-menu__link {
   border-color: #ffffff;

@@ -5,6 +5,11 @@
     margin-bottom: 16px;
     margin-right: 20px;
 
+    &:last-child {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+
     &--checkbox {
         .radio__visible {
             border-radius: 3px;
