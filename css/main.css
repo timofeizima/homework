@@ -192,7 +192,7 @@ img {
 
 .menu {
   margin: 0;
-  padding-top: 0px;
+  padding-top: 6px;
 }
 @media screen and (max-width: 768px) {
   .menu {
@@ -311,6 +311,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .feature__icon {
@@ -794,7 +797,7 @@ img {
   border-radius: 0.1666666667rem;
 }
 .radio--checkbox .radio__visible::before {
-  background: url("../img/icons/good.png") center center no-repeat;
+  background: url("../img/tech/good.png") center center no-repeat;
 }
 
 .radio__title {
