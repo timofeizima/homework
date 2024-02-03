@@ -42,8 +42,8 @@
     text-transform: uppercase;
 
     @include phones {
-        font-size: rem(43px);
-        line-height: rem(40px);
+        font-size: rem(40px);
+        line-height: rem(36px);
     }
 }
 
@@ -56,7 +56,7 @@
     }
 
     @include phones {
-        padding: 0 14%;
+        padding: 0 11%;
         font-size: rem(21px);
     }
 }

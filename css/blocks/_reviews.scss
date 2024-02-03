@@ -2,6 +2,10 @@
     background: #F8FAF9;
     padding: rem(42px);
     margin-bottom: rem(15px);
+    
+    @include tablets {
+        padding-top: rem(56px);
+    }
 }
 .reviews__display-inner {
     display: flex;
@@ -21,6 +25,7 @@
         height: rem(130px);
         margin-bottom: rem(10px);
     }
+    
 }
 .reviews__avatar-img {
     object-fit: cover;
@@ -35,6 +40,9 @@
     @include tablets {
         margin-left: 0;
         margin-bottom: rem(20px);
+    }
+    @include phones {
+        padding-top: rem(26px)
     }
 }
 .reviews__title {

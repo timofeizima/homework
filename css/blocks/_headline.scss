@@ -4,6 +4,9 @@
 .headline__title {
     line-height: rem(58px);
     margin-bottom: rem(17px);
+    @include phones {
+        margin-bottom: rem(5px);
+    }
 }
 .headline__subtitle {
     line-height: rem(22px);
@@ -11,7 +14,8 @@
     margin-bottom: rem(49px);
 
     @include phones {
-        padding: 0 5%;
+        padding: 0 8%;
+        margin-bottom: rem(70px);
     }
 }
 
