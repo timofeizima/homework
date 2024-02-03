@@ -15,7 +15,6 @@
   
     &:hover {
       .socials__icon {
-        opacity: 1;
         fill: #292929;
       }
     }
@@ -24,6 +23,5 @@
   .socials__icon {
     width: 20px;
     height: 20px;
-    fill: #292929;
-    opacity: .3;
+    fill:#B3B3B3;
   }
