@@ -11,11 +11,11 @@
   }
   
   .socials__link {
-    display: block;
+    display: flex;
   
     &:hover {
       .socials__icon {
-        fill: #292929;
+        opacity: 1;
       }
     }
   }
@@ -23,5 +23,6 @@
   .socials__icon {
     width: 20px;
     height: 20px;
-    fill:#B3B3B3;
+    fill: #292929;
+    opacity: 0.3;
   }
