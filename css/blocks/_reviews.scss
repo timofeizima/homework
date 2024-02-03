@@ -4,7 +4,7 @@
     margin-bottom: rem(15px);
     
     @include tablets {
-        padding-top: rem(56px);
+        padding-top: rem(30px);
     }
 }
 .reviews__display-inner {
@@ -60,6 +60,10 @@
     @include tablets {
         padding-right: 0;
     }
+
+    @include phones {
+        margin-bottom: rem(15px);
+    }
 }
 .reviews__author {
     font-weight: 700;
@@ -68,4 +72,8 @@
 .reviews__switcher {
     display: flex;
     justify-content: center;
+
+    @include phones {
+        margin-bottom: 2rem;
+    }
 }

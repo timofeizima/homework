@@ -328,6 +328,11 @@ img {
           align-items: center;
 }
 
+.future__icon-elem {
+  height: 35px;
+  width: 35px;
+}
+
 .feature__text {
   font-size: 0.8888888889rem;
   line-height: 0.9444444444rem;
@@ -412,12 +417,12 @@ img {
 
 @media screen and (max-width: 768px) {
   .section__title-reviews {
-    margin-bottom: 2.7777777778rem;
+    margin-bottom: 2.2222222222rem;
   }
 }
 @media screen and (max-width: 480px) {
   .section__title-reviews {
-    margin-bottom: 1.1111111111rem;
+    margin-bottom: 0.8333333333rem;
   }
 }
 
@@ -443,7 +448,7 @@ img {
 @media screen and (max-width: 480px) {
   .headline__subtitle {
     padding: 0 8%;
-    margin-bottom: 3.8888888889rem;
+    margin-bottom: 2.2222222222rem;
   }
 }
 
@@ -471,7 +476,7 @@ img {
 @media screen and (max-width: 480px) {
   .advantages__item {
     padding: 0;
-    margin-bottom: reem(19px);
+    padding-top: 5px;
   }
 }
 .advantages__item:before {
@@ -544,6 +549,11 @@ img {
   font-weight: 700;
   margin-bottom: 1.1666666667rem;
 }
+@media screen and (max-width: 480px) {
+  .advantage__title {
+    margin-bottom: 0.5rem;
+  }
+}
 
 .advantage__desc {
   font-size: 1rem;
@@ -558,7 +568,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .reviews__display {
-    padding-top: 3.1111111111rem;
+    padding-top: 1.6666666667rem;
   }
 }
 
@@ -636,6 +646,11 @@ img {
     padding-right: 0;
   }
 }
+@media screen and (max-width: 480px) {
+  .reviews__text {
+    margin-bottom: 0.8333333333rem;
+  }
+}
 
 .reviews__author {
   font-weight: 700;
@@ -648,6 +663,11 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+@media screen and (max-width: 480px) {
+  .reviews__switcher {
+    margin-bottom: 2rem;
+  }
 }
 
 .interactive-avatar {

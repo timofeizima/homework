@@ -26,11 +26,11 @@
 .section__title-reviews {
 
     @include tablets {
-        margin-bottom: rem(50px);
+        margin-bottom: rem(40px);
     }
 
     @include phones {
-        margin-bottom: rem(20px);
+        margin-bottom: rem(15px);
     }
     
 }
