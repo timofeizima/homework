@@ -2,12 +2,16 @@
     text-align: center;
 }
 .headline__title {
-    line-height: 58px;
-    margin-bottom: 17px;
+    line-height: rem(58px);
+    margin-bottom: rem(17px);
 }
 .headline__subtitle {
-    line-height: 22px;
+    line-height: rem(22px);
     padding: 0 27%;
-    margin-bottom: 49px;
+    margin-bottom: rem(49px);
+
+    @include phones {
+        padding: 0 5%;
+    }
 }
 

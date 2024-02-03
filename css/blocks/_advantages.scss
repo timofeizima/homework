@@ -1,18 +1,31 @@
 .advantages {
     display: flex;
+
+    @include phones {
+        flex-direction: column;
+    }
 }
 
 .advantages__item {
     flex: 1;
-    padding: 0 26px;
+    padding: 0 rem(26px);
     position: relative;
+
+    @include phones {
+        padding: 0;
+        margin-bottom: reem(19px);
+    }
 
     &:before {
         content: url('../img/decor/balls.png');
         position: absolute;
-        top: 30px;
+        top: rem(30px);
         right: 0;
         transform: translateX(50%);
+
+        @include phones {
+            display: none;
+        }
     }
 
     &:first-child {

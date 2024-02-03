@@ -2,8 +2,12 @@
     display: flex;
     cursor: pointer;
     user-select: none;
-    margin-bottom: 16px;
-    margin-right: 20px;
+    margin-bottom: rem(16px);
+    margin-right: rem(20px);
+
+    @include phones {
+        margin-bottom: rem(10px);
+    }
 
     &:last-child {
         margin-bottom: 0;
@@ -12,7 +16,7 @@
 
     &--checkbox {
         .radio__visible {
-            border-radius: 3px;
+            border-radius: rem(3px);
 
             &::before {
                 background: url('../img/icons/good.png') center center no-repeat;
@@ -22,8 +26,8 @@
 }
 
 .radio__title {
-    line-height: 28px;
-    padding-left: 10px;
+    line-height: rem(28px);
+    padding-left: rem(10px);
 }
 
 .radio__elem {
@@ -37,16 +41,16 @@
 }
 
 .radio__visible {
-    width: 25px;
-    height: 25px;
+    width: rem(25px);
+    height: rem(25px);
     position: relative;
     border-radius: 50%;
     background: #fff;
 
     &:before {
         content: '';
-        width: 13px;
-        height: 13px;
+        width: rem(13px);
+        height: rem(13px);
         background: $accent;
         border-radius: 50%;
         position: absolute;

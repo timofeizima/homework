@@ -1,18 +1,26 @@
 .btn {
-    font-size: 16px;
+    font-size: rem(16px);
     font-weight: 700;
-    padding: 22px 43px;
+    color: #000000;
+    padding: rem(22px) rem(43px);
     text-transform: uppercase;
-    border-radius: 100px;
+    border-radius: rem(100px);
     line-height: 1;
     text-decoration: none;
     display: inline-block;
     border: none;
     cursor: pointer;
 
+    @include phones {
+        font-size: rem(20px);
+        font-weight: 800;
+        line-height: rem(19px);
+        padding: rem(26px) rem(43px) rem(22px) rem(43px);
+    }
+
     &--color {
         background: $accent;
-        color: $textColor;
+        color: $colorBtnHero;
 
         &:hover {
             background: $accentHover;
@@ -33,7 +41,7 @@
         text-transform: none;
         color: #fff;
         font-weight: 400;
-        padding: 21px 19px;
+        padding: rem(21px) rem(19px);
 
         &:hover {
             color:$accent;
