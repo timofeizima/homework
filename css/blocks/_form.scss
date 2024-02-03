@@ -4,6 +4,7 @@
     @include tablets {
         flex-direction: column;
         padding: 0 18%;
+        padding-bottom: rem(180px);
     }
 
     @include phones {
@@ -65,7 +66,7 @@
         padding: rem(17px);
 
         @include tablets {
-            padding: rem(10px);
+            padding: rem(11px);
         }
         
     }

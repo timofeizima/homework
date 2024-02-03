@@ -673,6 +673,7 @@ img {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 0 18%;
+    padding-bottom: 10rem;
   }
 }
 @media screen and (max-width: 480px) {
@@ -740,7 +741,7 @@ img {
 }
 @media screen and (max-width: 768px) {
   .form__input[value] {
-    padding: 0.5555555556rem;
+    padding: 0.6111111111rem;
   }
 }
 .form__input--textarea {
@@ -795,7 +796,7 @@ img {
 @media screen and (max-width: 768px) {
   .form-title {
     letter-spacing: 0.2777777778rem;
-    padding-top: 5.5555555556rem;
+    padding-top: 9.7222222222rem;
     margin-bottom: 1.3888888889rem;
   }
 }
