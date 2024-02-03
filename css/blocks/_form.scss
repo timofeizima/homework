@@ -3,7 +3,7 @@
 
     @include tablets {
         flex-direction: column;
-        padding: 0 19%;
+        padding: 0 18%;
     }
 
     @include phones {
@@ -54,10 +54,20 @@
     border: solid rem(3px) transparent;
     border-radius: rem(3px);
 
+    @include tablets {
+        padding: rem(8px) rem(12px) rem(8px);
+    }
+
     &[value] {
         font-family: 'Open Sans', sans-serif;
         font-size: rem(14px);
         font-weight: 400;
+        padding: rem(17px);
+
+        @include tablets {
+            padding: rem(10px);
+        }
+        
     }
 
     &--textarea {

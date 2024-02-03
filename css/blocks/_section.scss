@@ -22,3 +22,11 @@
     text-transform: uppercase;
     color:#292929;
 }
+
+.section__title-reviews {
+
+    @include tablets {
+        margin-bottom: rem(50px);
+    }
+    
+}
