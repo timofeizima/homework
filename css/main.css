@@ -260,6 +260,8 @@ img {
   width: 0.7222222222rem;
   height: 0.7777777778rem;
   margin-right: 0.3333333333rem;
+}
+.phone-number__icon-elem--header {
   fill: #ffffff;
 }
 .phone-number__icon-elem--footer {

@@ -21,8 +21,11 @@
     width: rem(13px);
     height: rem(14px);
     margin-right: rem(6px);
-    fill: #ffffff;
 
+    &--header {
+        fill: #ffffff;
+    }
+    
     &--footer {
         fill: #292929;
         width: rem(14px);
