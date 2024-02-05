@@ -833,8 +833,6 @@ img {
 
 @media screen and (max-width: 768px) {
   .form-title {
-    letter-spacing: 0.2777777778rem;
-    padding-top: 9.7222222222rem;
     margin-bottom: 1.3888888889rem;
   }
 }
