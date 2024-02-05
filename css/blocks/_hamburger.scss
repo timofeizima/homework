@@ -1,19 +1,43 @@
-.hamburger {
-    width: 24px;
+.burger{
+    position: fixed; 
+    top: rem(35px);
+    right: 3%;
     height: 20px;
-    display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
-    display: none;
-
-    @include tablets {
-        display: inline-flex;
+    width: 24px;
+    cursor:pointer;
+    z-index: 15;
+    transition:all .4s;
+    
+    &__line{
+      width: 100%;
+      height: rem(4px);
+      position: absolute;
+      border-radius: rem(10px);
+      background-color: #fff;
+      top:0;
+      left: 0;
+      transition:all .4s;
+  
+      
+      &:nth-child(2){
+        top:50%;
+        transform:translateY(-50%);
+      }
+      
+      &:nth-child(3){
+        bottom:0;
+        top:initial;
+      }
     }
+  }
 
-    &__plank {
-        display: block;
-        background-color: #fff;
-        height: 4px;
-        border-radius: 10px;
-    }
-}
+
+
+
+
+
+
+
+
+
+
