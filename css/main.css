@@ -494,7 +494,7 @@ img {
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .advantages__item:before {
     display: none;
   }
@@ -671,11 +671,6 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (max-width: 480px) {
-  .reviews__switcher {
-    margin-bottom: 2rem;
-  }
-}
 
 .interactive-avatar {
   width: 4.1111111111rem;
@@ -727,7 +722,6 @@ img {
 @media screen and (max-width: 480px) {
   .form {
     padding: 0;
-    padding-bottom: 4.5rem;
   }
 }
 
@@ -835,11 +829,6 @@ img {
   background: url("../img/bg/form-bg.jpg") center center/cover no-repeat;
   height: 100vh;
   min-height: 36.1111111111rem;
-}
-@media screen and (max-width: 768px) {
-  .form-section {
-    height: auto;
-  }
 }
 
 @media screen and (max-width: 768px) {

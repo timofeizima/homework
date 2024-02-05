@@ -2,10 +2,6 @@
     background: url('../img/bg/form-bg.jpg') center center/cover no-repeat;
     height: 100vh;
     min-height: rem(650px);
-
-    @include tablets {
-        height: auto;
-    }
 }
 
 .form-title {
