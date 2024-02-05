@@ -433,6 +433,9 @@ img {
 }
 @media screen and (max-width: 480px) {
   .section__title-reviews {
+    padding-top: 1.1111111111rem;
+    font-size: 2.2222222222rem;
+    line-height: 2rem;
     margin-bottom: 0.8333333333rem;
   }
 }
@@ -840,12 +843,6 @@ img {
     margin-bottom: 1.3888888889rem;
   }
 }
-@media screen and (max-width: 480px) {
-  .form-title {
-    padding-top: 5rem;
-  }
-}
-
 .radio {
   display: -webkit-box;
   display: -ms-flexbox;
