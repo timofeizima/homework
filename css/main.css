@@ -40,7 +40,6 @@ body {
   width: 95%;
   max-width: 940px;
   margin: 0 auto;
-  position: relative;
 }
 
 h1,
@@ -429,6 +428,8 @@ img {
 @media screen and (max-width: 768px) {
   .section__title-reviews {
     margin-bottom: 2.2222222222rem;
+    font-size: 2.6666666667rem;
+    line-height: 3.2222222222rem;
   }
 }
 @media screen and (max-width: 480px) {

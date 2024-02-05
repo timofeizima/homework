@@ -27,6 +27,8 @@
 
     @include tablets {
         margin-bottom: rem(40px);
+        font-size: rem(48px);
+        line-height: rem(58px);
     }
 
     @include phones {
