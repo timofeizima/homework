@@ -332,7 +332,19 @@ img {
   z-index: 10;
 }
 
-.hamburger__menu__item {
+.overlay .menu {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+}
+.overlay .menu__list {
+  display: block;
+  line-height: 4rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.menu__item {
   margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -345,34 +357,8 @@ img {
       -ms-flex-align: center;
           align-items: center;
 }
-.hamburger__menu__item:after {
-  content: "";
-  display: inline-block;
-  height: 0.2777777778rem;
-  width: 0.2777777778rem;
-  background-color: #fff;
-  border-radius: 50%;
-  margin-top: 10px;
-}
-.hamburger__menu__item:last-child {
-  margin-bottom: 0;
-}
-.hamburger__menu__item:last-child:after {
-  display: none;
-}
-.hamburger__menu__link:hover {
+.menu__link:hover {
   opacity: 0.7;
-}
-
-.hamburger__item {
-  text-align: center;
-}
-
-.hamburger__link {
-  font-size: 2rem;
-  line-height: 4rem;
-  color: #fff;
-  text-decoration: none;
 }
 
 .burger--active .burger__line:nth-child(1) {
