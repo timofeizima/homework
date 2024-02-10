@@ -1,5 +1,13 @@
+
+
 .slider__item {
     display: flex;
+
+    @include tablets {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+   }
 }
 
 .slider__col {
@@ -10,6 +18,7 @@
     font-size: rem(36px);
     font-weight: 700;
     line-height: rem(43px);
+    margin-bottom: rem(24px);
     text-transform: uppercase;
     color: #292929;
 }
@@ -19,27 +28,56 @@
     font-weight: 400;
     margin-bottom: rem(24px);
 }
+.slider__content  {
+    padding:  0 rem(100px) 0 0;
+
+    @include tablets {
+        padding-right: 0;
+   }
+}
 
 .slider__text-param {
     display: flex;
     margin-bottom: rem(24px);
+
+    @include tablets {
+        justify-content: center;
+   }
 }
 .slider__col-param {
     display: flex;
     flex-direction: column;
-    margin-right: rem(44px);
+    margin-right: rem(50px);
     &:last-child {
         margin-right: 0;
     }
+}
+.slider__cost-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @include tablets {
+        justify-content: center;
+}
 }
 .slider__cost-sum {
     font-size: rem(60px);
     line-height: rem(60px);
     color: #292929;
     font-weight: 300;
+
+    @include tablets {
+        margin-right: rem(50px);
+   }
 }
-.slider__desc-param {
+.slider__value-param {
     line-height: rem(21px);
     font-weight: 700;
     color: #000000;
 }
+.slider__btn {
+    background: #FEDB3F;
+    font-weight: 800;
+}
+

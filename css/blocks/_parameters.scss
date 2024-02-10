@@ -2,8 +2,13 @@
     width: rem(91px);
     height: rem(91px);
     background: #3A587E;
-    margin-bottom: 52px;
+    margin-bottom: rem(64px);
     position: relative;
+    top: rem(14px);
+
+    @include tablets {
+         display: none;
+    }
 
     &:hover .parameters__menu {
         display: block;

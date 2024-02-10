@@ -684,6 +684,18 @@ img {
   display: -ms-flexbox;
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  .slider__item {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+}
 
 .slider__col {
   -webkit-box-flex: 1;
@@ -695,6 +707,7 @@ img {
   font-size: 2rem;
   font-weight: 700;
   line-height: 2.3888888889rem;
+  margin-bottom: 1.3333333333rem;
   text-transform: uppercase;
   color: #292929;
 }
@@ -705,11 +718,27 @@ img {
   margin-bottom: 1.3333333333rem;
 }
 
+.slider__content {
+  padding: 0 5.5555555556rem 0 0;
+}
+@media screen and (max-width: 768px) {
+  .slider__content {
+    padding-right: 0;
+  }
+}
+
 .slider__text-param {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 1.3333333333rem;
+}
+@media screen and (max-width: 768px) {
+  .slider__text-param {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .slider__col-param {
@@ -720,10 +749,29 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-right: 2.4444444444rem;
+  margin-right: 2.7777777778rem;
 }
 .slider__col-param:last-child {
   margin-right: 0;
+}
+
+.slider__cost-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .slider__cost-text {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .slider__cost-sum {
@@ -732,11 +780,21 @@ img {
   color: #292929;
   font-weight: 300;
 }
+@media screen and (max-width: 768px) {
+  .slider__cost-sum {
+    margin-right: 2.7777777778rem;
+  }
+}
 
-.slider__desc-param {
+.slider__value-param {
   line-height: 1.1666666667rem;
   font-weight: 700;
   color: #000000;
+}
+
+.slider__btn {
+  background: #FEDB3F;
+  font-weight: 800;
 }
 
 .dropdown__menu {
@@ -887,8 +945,14 @@ img {
   width: 5.0555555556rem;
   height: 5.0555555556rem;
   background: #3A587E;
-  margin-bottom: 52px;
+  margin-bottom: 3.5555555556rem;
   position: relative;
+  top: 0.7777777778rem;
+}
+@media screen and (max-width: 768px) {
+  .parameters {
+    display: none;
+  }
 }
 .parameters:hover .parameters__menu {
   display: block;
