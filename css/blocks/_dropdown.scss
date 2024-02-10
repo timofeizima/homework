@@ -1,0 +1,37 @@
+.dropdown {
+    &__menu {
+        padding: rem(20px);
+        width: rem(246px);
+        font-size: rem(16px);
+        font-weight: 500;
+        line-height: rem(24px);
+        background: #d5d5d5;
+    }
+
+    &__icon {
+        height: rem(24px);
+        width: rem(24px);
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: rem(18px);
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__desc {
+        display: flex;
+    }
+
+}
+
+
+
+
+
+
+
+

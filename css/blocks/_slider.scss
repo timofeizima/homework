@@ -1,0 +1,47 @@
+.slider__item {
+    display: flex;
+}
+
+.slider__col {
+    flex: 1;
+}
+
+.slider__title {
+    font-size: rem(36px);
+    font-weight: 700;
+    line-height: rem(43px);
+    text-transform: uppercase;
+    color: #292929;
+}
+.slider__content {
+    
+}
+.slider__desc {
+    line-height: rem(21px);
+    font-weight: 400;
+    margin-bottom: rem(24px);
+}
+
+.slider__text-param {
+    display: flex;
+    margin-bottom: rem(24px);
+}
+.slider__col-param {
+    display: flex;
+    flex-direction: column;
+    margin-right: rem(44px);
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.slider__cost-sum {
+    font-size: rem(60px);
+    line-height: rem(60px);
+    color: #292929;
+    font-weight: 300;
+}
+.slider__desc-param {
+    line-height: rem(21px);
+    font-weight: 700;
+    color: #000000;
+}
