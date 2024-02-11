@@ -29,6 +29,12 @@
 
     &__desc { 
         display: flex;
+        align-items: center;
+    }
+
+    &__value {
+        display: flex;
+        align-items: center;
     }
 
 }
