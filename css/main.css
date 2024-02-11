@@ -369,8 +369,8 @@ img {
           transform: rotate(45deg);
 }
 .burger--active .burger__line:nth-child(3) {
-  -webkit-transform: rotate(-45deg) translateY(-8px) translateX(5px);
-          transform: rotate(-45deg) translateY(-8px) translateX(5px);
+  -webkit-transform: rotate(-45deg) translateY(-5px) translateX(4px);
+          transform: rotate(-45deg) translateY(-5px) translateX(4px);
 }
 
 .overlay--active {
@@ -809,8 +809,8 @@ img {
   border-radius: 0.2222222222rem;
 }
 .dropdown__icon {
-  height: 1.3333333333rem;
-  width: 1.3333333333rem;
+  height: 1.7777777778rem;
+  width: 1.7777777778rem;
   margin-right: 0.8333333333rem;
 }
 .dropdown__item {
