@@ -29,7 +29,7 @@
     margin-bottom: rem(24px);
 }
 .slider__content  {
-    padding:  0 rem(100px) 0 0;
+    padding:  rem(10px) rem(100px) 0 0;
 
     @include tablets {
         padding-right: 0;

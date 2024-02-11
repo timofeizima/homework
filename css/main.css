@@ -719,7 +719,7 @@ img {
 }
 
 .slider__content {
-  padding: 0 5.5555555556rem 0 0;
+  padding: 0.5555555556rem 5.5555555556rem 0 0;
 }
 @media screen and (max-width: 768px) {
   .slider__content {
@@ -798,12 +798,15 @@ img {
 }
 
 .dropdown__menu {
-  padding: 1.1111111111rem;
-  width: 13.6666666667rem;
+  padding: 1rem 0.7222222222rem 1.1666666667rem 0.7777777778rem;
+  width: 15.1666666667rem;
   font-size: 0.8888888889rem;
   font-weight: 500;
   line-height: 1.3333333333rem;
   background: #d5d5d5;
+  color: #000000;
+  font-weight: 500;
+  border-radius: 0.2222222222rem;
 }
 .dropdown__icon {
   height: 1.3333333333rem;
@@ -813,10 +816,11 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding: 14px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 1rem;
+  margin-bottom: 0.4444444444rem;
 }
 .dropdown__item:last-child {
   margin-bottom: 0;
@@ -945,9 +949,11 @@ img {
   width: 5.0555555556rem;
   height: 5.0555555556rem;
   background: #3A587E;
-  margin-bottom: 3.5555555556rem;
+  margin-bottom: 3rem;
   position: relative;
   top: 0.7777777778rem;
+  border-radius: 0.2222222222rem;
+  padding-bottom: 0.6666666667rem;
 }
 @media screen and (max-width: 768px) {
   .parameters {
@@ -963,16 +969,34 @@ img {
   left: 100%;
   display: none;
 }
-
+.parameters__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.parameters__img {
+  width: 1.7777777778rem;
+  height: 1.7777777778rem;
+  margin-bottom: 0.3888888889rem;
+}
 .parameters__text {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 0.7777777778rem;
-}
-
-.parameters__img {
-  width: 1.7777777778rem;
-  height: 1.7777777778rem;
+  line-height: 0.9444444444rem;
+  font-weight: 700;
 }
 
 .reviews__display {

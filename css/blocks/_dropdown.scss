@@ -1,11 +1,14 @@
 .dropdown {
     &__menu {
-        padding: rem(20px);
-        width: rem(246px);
+        padding: rem(18px) rem(13px) rem(21px) rem(14px);
+        width: rem(273px);
         font-size: rem(16px);
         font-weight: 500;
         line-height: rem(24px);
         background: #d5d5d5;
+        color: #000000;
+        font-weight: 500;
+        border-radius: rem(4px);
     }
 
     &__icon {
@@ -15,8 +18,9 @@
 
     &__item {
         display: flex;
+        padding: 14px;
         justify-content: space-between;
-        margin-bottom: rem(18px);
+        margin-bottom: rem(8px);
         &:last-child {
             margin-bottom: 0;
         }
