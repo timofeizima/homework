@@ -12,6 +12,11 @@
 
 .slider__col {
     flex: 1;
+    margin-right: rem(60px);
+
+    &:last-child {
+        margin-right: 0;
+    }
 }
 
 .slider__title {
@@ -29,8 +34,8 @@
     margin-bottom: rem(24px);
 }
 .slider__content  {
-    padding:  rem(10px) rem(100px) 0 0;
-
+    //padding:  rem(10px) rem(100px) 0 0;
+    padding: 0 rem(20px) 0 0;
     @include tablets {
         padding-right: 0;
    }

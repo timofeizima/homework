@@ -1,5 +1,6 @@
 .products {
     position: relative;
+    
   
   &__arrows {
     display: flex;
@@ -8,8 +9,11 @@
     width: 100%;
     position: absolute;
     top: 50%;
-    left: -5%;
   }
+}
+
+.products__list {
+    padding: 0 rem(20px) 0 rem(40px);
 }
 
 
@@ -24,14 +28,7 @@
     }
 }
 
-.products__col {
-    flex: 1;
-    margin-right: rem(55px);
 
-    &:last-child {
-        margin-right: 0;
-    }
-}
 
 .products__title {
     color: #292929;
