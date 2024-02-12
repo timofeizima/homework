@@ -21,6 +21,13 @@
     &:last-child {
         margin-right: 0;
     }
+
+    @include tablets {
+        margin-right: 0;
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 }
 
 .menu__link {
