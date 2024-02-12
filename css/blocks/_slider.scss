@@ -32,13 +32,15 @@
     line-height: rem(21px);
     font-weight: 400;
     margin-bottom: rem(24px);
+    
 }
 .slider__content  {
     //padding:  rem(10px) rem(100px) 0 0;
-    padding: 0 rem(20px) 0 0;
+    padding: 0 rem(25px) 0 0;
     @include tablets {
         padding-right: 0;
    }
+    
 }
 
 .slider__text-param {

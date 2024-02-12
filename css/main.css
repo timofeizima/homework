@@ -704,7 +704,7 @@ img {
 }
 
 .slider__content {
-  padding: 0 1.1111111111rem 0 0;
+  padding: 0 1.3888888889rem 0 0;
 }
 @media screen and (max-width: 768px) {
   .slider__content {
@@ -958,7 +958,7 @@ img {
   width: 5.0555555556rem;
   height: 5.0555555556rem;
   background: #3A587E;
-  margin-bottom: 3rem;
+  margin-bottom: 3.8888888889rem;
   position: relative;
   top: 0.7777777778rem;
   border-radius: 0.2222222222rem;
