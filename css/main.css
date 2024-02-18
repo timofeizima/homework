@@ -1092,10 +1092,6 @@ img {
 .team__item-active .team__content {
   height: 100%;
 }
-.team__item .team__item-active .team__title-icon--active {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
 .team__item:last-child {
   margin-right: 0;
 }
