@@ -38,6 +38,11 @@
         text-align: center;
         margin-right: rem(20px);
         position: relative;
+        .team__title-icon {
+            top: 34%;
+            right: -5%
+        }
+
         &-active {
             .team__content {
                 height: 100%;
@@ -85,9 +90,6 @@
             width: rem(9px);
             height: rem(9px);
             position: absolute;
-            top: 34%;
-            right: -5%
-
         }
 
 
