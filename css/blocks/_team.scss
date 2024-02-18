@@ -27,7 +27,7 @@
 
         &::after {
             content: '';
-            background-image: url('../../img/decor/team-triangle.svg') no-repeat;
+            background: url('../../img/decor/team-triangle.svg') no-repeat;
             width: rem(9px);
             height: rem(9px);
         }
