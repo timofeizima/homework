@@ -82,8 +82,15 @@
             width: rem(9px);
             height: rem(9px);
             position: absolute;
-            top: 0;
+            top: 34%;
+            right: -5%
+
         }
+
+        &-icon--active {
+            transform: translate(180deg);
+        }
+
     }
 
     &__content {

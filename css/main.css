@@ -1131,7 +1131,12 @@ img {
   width: 0.5rem;
   height: 0.5rem;
   position: absolute;
-  top: 0;
+  top: 34%;
+  right: -5%;
+}
+.team__title-icon--active {
+  -webkit-transform: translate(180deg);
+          transform: translate(180deg);
 }
 .team__content {
   overflow: hidden;
