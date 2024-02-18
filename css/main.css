@@ -1047,6 +1047,10 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+.team--version--desktop .team__content {
+  position: absolute;
+  top: 100%;
+}
 @media screen and (max-width: 768px) {
   .team--version--desktop {
     display: none;
@@ -1061,11 +1065,25 @@ img {
   }
 }
 .team__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
   text-align: center;
   margin-right: 1.1111111111rem;
+  position: relative;
 }
 .team__item-active .team__content {
   height: 100%;
@@ -1089,6 +1107,10 @@ img {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 0.8888888889rem;
+  }
+  .team__item:last-child {
+    margin-bottom: 0;
   }
 }
 .team__member {
@@ -1103,15 +1125,11 @@ img {
   background: 0;
   margin-bottom: 0.5555555556rem;
   cursor: pointer;
+  position: relative;
 }
-.team__title::after {
-  content: "";
-  background: url("../../img/decor/team-triangle.svg") no-repeat center center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 0.5rem;
-  height: 0.5rem;
+.team__title-icon {
+  width: 9px;
+  height: 9px;
 }
 .team__content {
   overflow: hidden;
@@ -1134,11 +1152,8 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    min-height: 100px;
   }
-}
-.team .team--version--desktop .team__content {
-  position: absolute;
-  top: 100%;
 }
 .team__occ {
   font-size: 1rem;
@@ -1147,15 +1162,15 @@ img {
   color: #000000;
   margin-bottom: 0.4444444444rem;
 }
+@media screen and (max-width: 768px) {
+  .team__occ {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+}
 .team__content-text {
   font-weight: 300;
 }
-@media screen and (max-width: 768px) {
-  .team__content-text {
-    padding: 0 3.3333333333rem 0 3.3333333333rem;
-  }
-}
-
 .reviews__display {
   background: #F8FAF9;
   padding: 2.3333333333rem;
@@ -1437,7 +1452,7 @@ img {
           justify-content: center;
 }
 
-.form__input .input-error {
+.form__input.input-error {
   border-color: blueviolet;
 }
 
