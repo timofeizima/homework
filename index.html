@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Surfboard</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <link rel="stylesheet" href="./css/main.css">
 
 </head>
@@ -451,7 +452,7 @@
                     <div class="reviews">
                         <div class="reviews__display">
                             <ul class="reviews__list">
-                                <li class="reviews__item reviews__item--active" id="one">
+                                <li class="reviews__item reviews__item--active" id="one" data-selected="one">
                                     
                                         <div class="reviews__display-inner">
                                             <div class="reviews__avatar">
@@ -472,7 +473,7 @@
                                         </div>
                             
                                 </li>
-                                <li class="reviews__item" id="two">
+                                <li class="reviews__item" id="two" data-selected="two">
                                     
                                         <div class="reviews__display-inner">
                                             <div class="reviews__avatar">
@@ -492,7 +493,7 @@
                                         </div>
                                 
                                 </li>
-                                <li class="reviews__item" id="three">
+                                <li class="reviews__item" id="three" data-selected="three">
                                     
                                         <div class="reviews__display-inner">
                                             <div class="reviews__avatar">
@@ -515,17 +516,17 @@
                               
                         <ul class="reviews__switcher">
                             <li class="reviews__switcher-item interactive-avatar interactive-avatar--active"  id="one">
-                                <a href="#" class="interactive-avatar__link">
+                                <a href="#" class="interactive-avatar__link" data-select="one">
                                     <img src="./img/content/review-one.jpg" alt="Девушка" class="interactive-avatar__img">
                                 </a>
                             </li>
                             <li class="reviews__switcher-item interactive-avatar"  id="two">
-                                <a href="#" class="interactive-avatar__link">
+                                <a href="#" class="interactive-avatar__link" data-select="two">
                                     <img src="./img/content/review-two.jpg" alt="Парень" class="interactive-avatar__img">
                                 </a>
                             </li>
                             <li class="reviews__switcher-item interactive-avatar" id="three">
-                                <a href="#" class="interactive-avatar__link">
+                                <a href="#" class="interactive-avatar__link" data-select="three">
                                     <img src="./img/content/review-four.jpg" alt="Девушка" class="interactive-avatar__img">
                                 </a>
                             </li>
@@ -760,6 +761,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
     <script src="./js/script.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/reviews.js"></script>

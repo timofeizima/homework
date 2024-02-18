@@ -19,9 +19,17 @@ burger.addEventListener('click' , toggleMenu);
 
 
 
+
+
+
+
+
+
+
+
 //team 
 
-function accordionTeam() {
+/*function accordionTeam() {
   const workers = document.querySelectorAll(".team__item");
   const teamAccord = document.querySelector(".team");
 
@@ -54,7 +62,7 @@ function accordionTeam() {
 
 accordionTeam();
 
-
+*/
 
 //// Reviews
 

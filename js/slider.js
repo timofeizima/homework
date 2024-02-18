@@ -1,5 +1,4 @@
-/////  Slider 
-
+/*
 let list = document.querySelector(".slider__list");
 let controls = document.querySelector(".products__arrows");
 let currentIndex = 0;
@@ -31,3 +30,26 @@ function doTransition(index) {
 }
 
 controls.addEventListener("click", slider);
+*/
+
+$(document).ready(function(){
+  const slider = $(".slider__list").bxSlider({
+    pager: false,
+    controls: false,
+  });
+
+  $('.products__arrow--prev').click(e => {
+    e.preventDefault();
+
+    slider.goToPrevSlide();
+  })
+  $('.products__arrow--next').click(e => {
+    e.preventDefault();
+
+    slider.goToNextSlide();
+  })
+});
+
+
+
+	

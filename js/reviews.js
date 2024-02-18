@@ -1,4 +1,4 @@
-const reviewsBar = document.querySelector('.reviews__switcher');
+/*const reviewsBar = document.querySelector('.reviews__switcher');
 const reviewsItems = document.querySelectorAll('.reviews__switcher-item');
 const reviewWrapp = document.querySelectorAll('.reviews__item');
 
@@ -29,4 +29,22 @@ reviewsBar.addEventListener('click' , e=>{
       }
     })
   }
+});
+*/
+const findBlockByAlias = (alias) => {
+  return $(".reviews__item").filter((ndx, item) => {
+    return $(item).attr("data-selected") === alias; 
+  });
+};
+
+$(".interactive-avatar__link").click((e) => {
+  e.preventDefault();
+
+  const $this = $(e.currentTarget);
+  const target = $this.attr("data-select");
+  const itemShow = findBlockByAlias(target);
+  const curItem = $this.closest(".interactive-avatar");
+
+  itemShow.addClass("reviews__item--active").siblings().removeClass("reviews__item--active");
+  curItem.addClass("interactive-avatar--active").siblings().removeClass("interactive-avatar--active");
 });

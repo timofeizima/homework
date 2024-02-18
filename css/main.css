@@ -668,11 +668,11 @@ img {
   background: #F8FAF9;
 }
 
-.slider {
-  width: 100%;
-}
-.slider__wrap {
-  overflow: hidden;
+.slider__wrap .bx-wrapper {
+  border: none;
+  background: transparent;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .slider__list {
@@ -685,9 +685,6 @@ img {
 }
 
 .slider__item {
-  position: relative;
-  width: 100%;
-  min-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

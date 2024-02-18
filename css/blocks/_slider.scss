@@ -1,9 +1,14 @@
 .slider {
-    width: 100%;
+    //width: 100%;
 
 
     &__wrap {
-        overflow: hidden;
+     //   overflow: hidden;
+     .bx-wrapper {
+        border: none;
+        background: transparent;
+        box-shadow: none;
+    }
     }
 }
 
@@ -11,12 +16,14 @@
     display: flex;
     transition: all 1s;
     padding: 0 rem(0px) 0 rem(40px);
+
+    
 }
 
 .slider__item {
-    position: relative;
-    width: 100%;
-    min-width: 100%;
+    //position: relative;
+    //width: 100%;
+    //min-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
