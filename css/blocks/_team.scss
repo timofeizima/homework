@@ -38,18 +38,15 @@
         text-align: center;
         margin-right: rem(20px);
         position: relative;
-        .team__title-icon {
-            top: 34%;
-            right: -5%
-        }
 
         &-active {
             .team__content {
                 height: 100%;
+                .team__title-icon--active {
+                    transform: rotate(180deg)
+                }
             }
-            .team__title-icon--active {
-                transform: rotate(180deg)
-            }
+            //
         }
 
         &:last-child {
@@ -84,12 +81,17 @@
         margin-bottom: rem(10px);
         cursor: pointer;
         position: relative;
-        
 
         &-icon {
             width: rem(9px);
             height: rem(9px);
             position: absolute;
+            top: 34%;
+            right: -5%
+        }
+
+        &-icon--active {
+            transform: rotate(180deg)
         }
 
 
