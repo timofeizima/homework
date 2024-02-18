@@ -70,7 +70,7 @@ const openItem = item => {
   const textBlock = contentBlock.find(".team__content-block");
   const reqHeight = textBlock.height();
 
-  container.addClass("team__item-active.team__title-icon--active");
+  container.addClass("team__item-active");
   contentBlock.height(reqHeight);
 }
 
@@ -79,7 +79,7 @@ const closeEveryItem = (container) => {
   const items = container.find('.team__content');
   const itemContainer = container.find(".team__item");
 
-  itemContainer.removeClass("team__item-active.team__title-icon--active");
+  itemContainer.removeClass("team__item-active");
   items.height(0);
 }
 
@@ -88,7 +88,7 @@ $('.team__title').click(e => {
   const container = $this.closest('.team');
   const elemContainer = $this.closest(".team__item");
 
-  if(elemContainer.hasClass("team__item-active.team__title-icon--active")) {
+  if(elemContainer.hasClass("team__item-active")) {
     closeEveryItem(container);
   }
   else {
