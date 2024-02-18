@@ -79,8 +79,10 @@
         
 
         &-icon {
-            width: 9px;
-            height: 9px;
+            width: rem(9px);
+            height: rem(9px);
+            position: absolute;
+            top: 0;
         }
     }
 

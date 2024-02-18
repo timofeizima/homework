@@ -1128,8 +1128,10 @@ img {
   position: relative;
 }
 .team__title-icon {
-  width: 9px;
-  height: 9px;
+  width: 0.5rem;
+  height: 0.5rem;
+  position: absolute;
+  top: 0;
 }
 .team__content {
   overflow: hidden;
