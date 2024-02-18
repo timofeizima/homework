@@ -42,6 +42,9 @@
             .team__content {
                 height: 100%;
             }
+            .team__title-icon--active {
+                transform: rotate(180deg)
+            }
         }
 
         &:last-child {
@@ -87,9 +90,6 @@
 
         }
 
-        &-icon--active {
-            transform: rotate(180deg)
-        }
 
     }
 
