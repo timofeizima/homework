@@ -1,7 +1,26 @@
+.slider {
+    width: 100%;
 
+
+    &__wrap {
+        overflow: hidden;
+    }
+}
+
+.slider__list {
+    display: flex;
+    transition: all 1s;
+    padding: 0 rem(0px) 0 rem(40px);
+}
 
 .slider__item {
+    position: relative;
+    width: 100%;
+    min-width: 100%;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
 
     @include tablets {
         flex-direction: column;

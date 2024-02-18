@@ -9,11 +9,13 @@
     width: 100%;
     position: absolute;
     top: 50%;
+    left: 0;
+    transform: translateY(-50%);
   }
 }
 
 .products__list {
-    padding: 0 rem(20px) 0 rem(40px);
+    
 }
 
 

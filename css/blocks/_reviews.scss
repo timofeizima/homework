@@ -2,11 +2,35 @@
     background: #F8FAF9;
     padding: rem(42px);
     margin-bottom: rem(15px);
-    
+
     @include tablets {
         padding-top: rem(30px);
     }
 }
+
+.reviews__list {
+    position: relative;
+    min-height: rem(280px);
+}
+
+.reviews__item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.3s;
+    pointer-events: none;
+
+    &--active {
+        position: static;
+        opacity: 1;
+        pointer-events: unset;
+      }
+}
+
+
 .reviews__display-inner {
     display: flex;
 
@@ -16,6 +40,9 @@
         align-items: center;
     }
 }
+
+
+
 .reviews__avatar {
     width: rem(253px);
     height: rem(264px);
@@ -49,6 +76,7 @@
     font-size: rem(27px);
     font-weight: 700;
     margin-bottom: rem(10px);
+    color: #292929;
 }
 .reviews__text {
     font-size: rem(18px);
@@ -67,6 +95,7 @@
 }
 .reviews__author {
     font-weight: 700;
+    color: #292929;
 }
 
 .reviews__switcher {

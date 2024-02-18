@@ -668,10 +668,37 @@ img {
   background: #F8FAF9;
 }
 
-.slider__item {
+.slider {
+  width: 100%;
+}
+.slider__wrap {
+  overflow: hidden;
+}
+
+.slider__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  padding: 0 0rem 0 2.2222222222rem;
+}
+
+.slider__item {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 1s;
+  transition: all 1s;
 }
 @media screen and (max-width: 768px) {
   .slider__item {
@@ -852,10 +879,9 @@ img {
   width: 100%;
   position: absolute;
   top: 50%;
-}
-
-.products__list {
-  padding: 0 1.1111111111rem 0 2.2222222222rem;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .products__item {
@@ -1074,6 +1100,28 @@ img {
   }
 }
 
+.reviews__list {
+  position: relative;
+  min-height: 15.5555555556rem;
+}
+
+.reviews__item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  pointer-events: none;
+}
+.reviews__item--active {
+  position: static;
+  opacity: 1;
+  pointer-events: unset;
+}
+
 .reviews__display-inner {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1134,6 +1182,7 @@ img {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 0.5555555556rem;
+  color: #292929;
 }
 
 .reviews__text {
@@ -1156,6 +1205,7 @@ img {
 
 .reviews__author {
   font-weight: 700;
+  color: #292929;
 }
 
 .reviews__switcher {
@@ -1318,6 +1368,10 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.form__input .input-error {
+  border-color: blueviolet;
 }
 
 .form-section {
@@ -1517,4 +1571,32 @@ img {
   height: 20px;
   fill: #292929;
   opacity: 0.3;
+}
+
+#hidden-window {
+  display: none;
+}
+
+.modal__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.modal__content {
+  font-size: 1rem;
+  color: #000000;
+  font-weight: 700;
+  line-height: 1.3333333333rem;
+  margin-bottom: 1.3333333333rem;
+}
+
+.modal-btn {
+  background: #FEDB3F;
 }
