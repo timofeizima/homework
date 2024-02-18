@@ -1074,7 +1074,10 @@ img {
 }
 .team__title::after {
   content: "";
-  background: url("../../img/decor/team-triangle.svg") no-repeat;
+  background: url("../../img/decor/team-triangle.svg") no-repeat center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   width: 0.5rem;
   height: 0.5rem;
 }
