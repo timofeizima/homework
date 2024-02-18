@@ -1047,6 +1047,19 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+@media screen and (max-width: 768px) {
+  .team--version--desktop {
+    display: none;
+  }
+}
+.team--version--mobile {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .team--version--mobile {
+    display: block;
+  }
+}
 .team__item {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -1054,8 +1067,29 @@ img {
   text-align: center;
   margin-right: 1.1111111111rem;
 }
+.team__item-active .team__content {
+  height: 100%;
+}
 .team__item:last-child {
   margin-right: 0;
+}
+@media screen and (max-width: 768px) {
+  .team__item {
+    margin-right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 .team__member {
   margin-bottom: 1.1111111111rem;
@@ -1068,6 +1102,7 @@ img {
   border: none;
   background: 0;
   margin-bottom: 0.5555555556rem;
+  cursor: pointer;
 }
 .team__title::after {
   content: "";
@@ -1078,6 +1113,33 @@ img {
   width: 0.5rem;
   height: 0.5rem;
 }
+.team__content {
+  overflow: hidden;
+  -webkit-transition: height 0.3s;
+  transition: height 0.3s;
+  height: 0;
+}
+@media screen and (max-width: 768px) {
+  .team__content-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+.team .team--version--desktop .team__content {
+  position: absolute;
+  top: 100%;
+}
 .team__occ {
   font-size: 1rem;
   font-weight: 400;
@@ -1087,6 +1149,11 @@ img {
 }
 .team__content-text {
   font-weight: 300;
+}
+@media screen and (max-width: 768px) {
+  .team__content-text {
+    padding: 0 3.3333333333rem 0 3.3333333333rem;
+  }
 }
 
 .reviews__display {
