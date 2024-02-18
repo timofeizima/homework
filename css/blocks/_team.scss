@@ -42,11 +42,11 @@
         &-active {
             .team__content {
                 height: 100%;
-                .team__title-icon--active {
-                    transform: rotate(180deg)
-                }
             }
-            //
+        }
+
+        .team__item-active .team__title-icon--active {
+            transform: rotate(180deg)
         }
 
         &:last-child {

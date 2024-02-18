@@ -1088,7 +1088,7 @@ img {
 .team__item-active .team__content {
   height: 100%;
 }
-.team__item-active .team__content .team__title-icon--active {
+.team__item .team__item-active .team__title-icon--active {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
