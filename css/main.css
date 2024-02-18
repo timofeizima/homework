@@ -1135,8 +1135,8 @@ img {
   right: -5%;
 }
 .team__title-icon--active {
-  -webkit-transform: translate(180deg);
-          transform: translate(180deg);
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 .team__content {
   overflow: hidden;
