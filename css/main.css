@@ -719,6 +719,11 @@ img {
 .slider__col:last-child {
   margin-right: 0;
 }
+@media screen and (max-width: 768px) {
+  .slider__col {
+    margin-right: 0;
+  }
+}
 
 .slider__title {
   font-size: 2rem;
@@ -880,6 +885,11 @@ img {
   left: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+@media screen and (max-width: 768px) {
+  .products__arrows {
+    margin: 0;
+  }
 }
 
 .products__item {
