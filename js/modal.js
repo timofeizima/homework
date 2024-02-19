@@ -40,7 +40,7 @@ $(".form").submit(e => {
                 name: name.val(),
                 phone: phone.val(),
                 comment: comment.val(),
-                to: to.val(),
+                to: to.val(),              
             },
             
             error: data => {
@@ -50,6 +50,7 @@ $(".form").submit(e => {
 
         request.done((data) => {
             content.text(data.message);
+            $('.form').trigger("reset");/////////////
         });
 
         request.fail((data) => {
