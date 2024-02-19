@@ -113,7 +113,7 @@ $('.team__title').on('click', e =>{
 
 
 
-  if(elemStore.hasClass('active')){
+  if(elemStore.hasClass('team__item-active')){
     closeItem(itemStore);
     triangle.attr('xlink:href', './img/icons/sprite.svg#team-triangle')
   } else{
