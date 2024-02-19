@@ -47,9 +47,9 @@
                 height: 100%;
            }
 
-            //.team__title-icon {
-               // transform: rotate(180deg);
-            //}
+            .team__title-icon {
+                transform: rotate(180deg);
+            }
 
             
         }
@@ -95,9 +95,10 @@
             right: -5%
         }
 
-        //&-icon--active {
-            //transform: rotate(180deg)
-        //}
+        &-icon--active {
+
+            transform: rotate(180deg)
+        }
     }
 
     &__content {
