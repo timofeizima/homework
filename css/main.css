@@ -1684,7 +1684,7 @@ img {
   opacity: 0.3;
 }
 
-#hidden-window {
+.hidden-window {
   display: none;
 }
 
