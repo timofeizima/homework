@@ -112,7 +112,8 @@
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            min-height: 100px;
+            min-height: rem(120px);
+            max-width: rem(220px);
            }
        }
        
