@@ -1086,6 +1086,9 @@ img {
   margin-right: 1.1111111111rem;
   position: relative;
 }
+.team__item-active .team__content {
+  height: 100%;
+}
 .team__item-active .team__title-icon {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
