@@ -1157,10 +1157,6 @@ img {
   top: 34%;
   right: -5%;
 }
-.team__title-icon--active {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
 .team__content {
   overflow: hidden;
   -webkit-transition: height 0.3s;
