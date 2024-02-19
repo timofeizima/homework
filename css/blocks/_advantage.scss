@@ -41,6 +41,7 @@
     line-height: rem(33px);
     font-weight: 700;
     margin-bottom: rem(21px);
+    color: #292929;
 
     @include phones {
         margin-bottom: rem(9px);
@@ -51,5 +52,5 @@
     font-size: rem(18px);
     font-weight: 300;
     line-height: rem(21px);
-
+    color:#666666;
 }
