@@ -45,12 +45,8 @@
             }
 
             .team__title {
-                &:after {
-                 content: "";
-                transform: rotate(-180deg);
-                }
+                transform: rotate(180deg);
             }
-
         }
 
         &:last-child {
