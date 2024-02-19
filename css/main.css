@@ -875,6 +875,7 @@ img {
           align-items: center;
   width: 100%;
   position: absolute;
+  margin: 0 -20px;
   top: 50%;
   left: 0;
   -webkit-transform: translateY(-50%);
@@ -1085,12 +1086,13 @@ img {
   margin-right: 1.1111111111rem;
   position: relative;
 }
-.team__item-active .team__title-icon--active {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
-}
 .team__item-active .team__content {
   height: 100%;
+}
+.team__item-active .team__title:after {
+  content: "";
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
 }
 .team__item:last-child {
   margin-right: 0;

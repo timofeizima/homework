@@ -40,12 +40,17 @@
         position: relative;
 
         &-active {
-            .team__title-icon--active {
-                transform: rotate(180deg)
-            }
             .team__content {
                 height: 100%;
             }
+
+            .team__title {
+                &:after {
+                 content: "";
+                transform: rotate(-180deg);
+                }
+            }
+
         }
 
         &:last-child {
@@ -92,8 +97,6 @@
         &-icon--active {
             transform: rotate(180deg)
         }
-
-
     }
 
     &__content {
