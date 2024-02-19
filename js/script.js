@@ -100,6 +100,34 @@ $('.team__title').click(e => {
 
 
 
+// const trianglePosition ()
+    
+    
+$('.team__title').on('click', e =>{
+    
+  const chosenElem = $(e.currentTarget);
+  const itemStore = chosenElem.closest('.team');
+  const elemStore = chosenElem.closest('.team__item');
+  const triangle = chosenElem.find('.team__title-svg-path');
+  const triangleAll = itemStore.find('.team__title-svg-path');
+
+
+
+  if(elemStore.hasClass('active')){
+    closeItem(itemStore);
+    triangle.attr('xlink:href', './img/icons/sprite.svg#team-triangle')
+  } else{
+    closeItem(itemStore);
+    openItem(chosenElem);
+    triangleAll.attr('xlink:href', './img/icons/sprite.svg#team-triangle');
+    triangle.attr('xlink:href', './img/icons/sprite.svg#triangle-up');
+
+  }
+});
+
+
+
+
 
 
 

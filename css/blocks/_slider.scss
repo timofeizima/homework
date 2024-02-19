@@ -47,6 +47,12 @@
     @include tablets {
         margin-right: 0;
     }
+
+    @include phones {
+       
+
+    }
+    
 }
 
 .slider__title {
@@ -96,8 +102,10 @@
 
     @include tablets {
         justify-content: center;
-}
-}
+    }  
+ }
+
+
 .slider__cost-text {
     font-size: rem(60px);
     line-height: rem(60px);
@@ -107,7 +115,13 @@
     @include tablets {
         margin-right: rem(50px);
    }
+   @include phones {
+        margin-right: rem(20px);
+        font-size: rem(50px);
+   }
+   
 }
+
 .slider__value-param {
     line-height: rem(21px);
     font-weight: 700;

@@ -724,7 +724,6 @@ img {
     margin-right: 0;
   }
 }
-
 .slider__title {
   font-size: 2rem;
   font-weight: 700;
@@ -805,6 +804,12 @@ img {
 @media screen and (max-width: 768px) {
   .slider__cost-text {
     margin-right: 2.7777777778rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .slider__cost-text {
+    margin-right: 1.1111111111rem;
+    font-size: 2.7777777778rem;
   }
 }
 
@@ -1105,10 +1110,6 @@ img {
 }
 .team__item-active .team__content {
   height: 100%;
-}
-.team__item-active .team__title-icon {
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
 }
 .team__item:last-child {
   margin-right: 0;
