@@ -7,12 +7,13 @@
     display: flex;
     justify-content: space-between;
 
+
     &--version--desktop {
-        
         .team__content {
             position: absolute;
             top: 100%;
         }
+        
         
         @include tablets {
             display: none;
@@ -23,9 +24,11 @@
             display: none;
         
              @include tablets {
-                    display: block;
-
-                } 
+                 display: flex;
+                 flex-direction: column;
+                 position: relative;
+                 
+            } 
     
     }
 
@@ -48,9 +51,7 @@
                 transform: rotate(180deg);
             }
 
-            .team__title-icon--active {
-                transform: rotate(180deg);
-            }
+            
         }
 
         &:last-child {
