@@ -50,7 +50,7 @@ $(".form").submit(e => {
 
         request.done((data) => {
             content.text(data.message);
-            $('.form').trigger("reset");/////////////
+            $('.form').trigger("reset");
         });
 
         request.fail((data) => {

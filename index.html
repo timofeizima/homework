@@ -627,6 +627,30 @@
                     </div>           
                 </div>    
             </section>
+           <!-- <section class="section player-section">
+                <div class="container">
+                    <h2 class="section__title">Как мы работаем</h2>
+                    <div class="player-section__container">
+                        <div class="player active">
+                            <div class="player__wrapper">
+                                <div id="yt-player" class="player__elem"></div>
+                                <div class="player__splash"></div>
+                            </div>
+                            <div class="player__controls">
+                                <button class="player__start"></button>
+                                <div class="player__playback">
+                                    <button class="player__playback-button"></button>
+                                </div>
+                                <div class="player__duration">
+                                    <span class="player__duration-completed">0:00</span>
+                                    <span class="player__duration-estimate">0:00</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>-->
+           
             <section class="section form-section section--font-color">
                 <div class="container">
                     <h2 class="section__title form-title">закажите доставку</h2>
@@ -705,8 +729,7 @@
 
             <section class="section map-section">
                 
-                
-                <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Afbbb5b42a3300caf02177087bf9700998592c870659b21ddae8bf21aa191eeb2&amp;width=100%25&amp;height=680&amp;lang=ru_RU&amp;scroll=true"></script>                
+                <div id="map"></div>
                 
                 <footer class="footer"> 
                     <div class="container footer__container">
@@ -852,9 +875,17 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>-->
+    <script src="./js/jquery-3.7.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="./js/player.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=cd298a69-d507-4f7c-bc0e-921df0a67446
+    " type="text/javascript">
+    </script>
+    <script src="./js/map.js"></script>
 
     <script src="./js/script.js"></script>
     <script src="./js/slider.js"></script>
