@@ -1631,6 +1631,10 @@ img {
           transform: translate(-50%, -50%);
 }
 
+.map {
+  height: 100%;
+}
+
 .footer {
   position: absolute;
   bottom: 0;
