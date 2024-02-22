@@ -91,31 +91,31 @@
     background: transparent;
     cursor: pointer;
     transition: all 0.1s ease-out;
-    background: url("../../img/icons/small-play.svg") center center / cover no-repeat;
+    //background: url("../../img/icons/small-play.svg") center center / cover no-repeat;
     // background: url('./img/icons/small-play.svg') center center/cover no-repeat;
-    width: rem(10px);
-    height: rem(15px);
+    //width: rem(11px);
+    //height: rem(16px);
     border: none;
   
-    //margin-right: 4px;
-    //height: 0;
-    //width: 0;
-    //border: 8px solid transparent;
-    //border-left-color: #fff;
-    //border-right-width: 0;
+    
+    height: 0;
+    width: 0;
+    border: 11px solid transparent;
+    border-left-color: #fff;
+    border-right-width: 0;
   
-    // &.active {
-      // border: 8px solid #fff;
-      // height: 15px;
-       //border-top: 0;
-       //border-bottom: 0;
-      // padding: 1px;
-     //}
+     &.active {
+       border:9px solid #fff;
+       height: 16px;
+       border-top: 0;
+       border-bottom: 0;
+      padding: 1px;
+     }
   }
   
   .duration__img-pause {
-    border: 6px solid #fff;
-    height: 15px;
+    border: 7px solid #fff;
+    height: 16px;
     border-top: 0;
     border-bottom: 0;
     padding: 1px;
