@@ -107,8 +107,8 @@ const display = $(".maincontent");
 const sideMenu = $(".fixed-menu");
 const menuItems = sideMenu.find(".fixed-menu__item");
 
-//const mobileDetect = new MobileDetect(window.navigator.userAgent);
-//const isMobile = mobileDetect.mobile();
+const mobileDetect = new MobileDetect(window.navigator.userAgent);
+const isMobile = mobileDetect.mobile();
 
 let inScroll = false;
 
@@ -169,7 +169,7 @@ const performTransition = (sectionEq) => {
     }, transitionOver + mouseInertialOver);
 };
 
-const viewportScroller = () => {
+    const viewportScroller = () => {
     const activeSection = sections.filter(".active");
     const nextSection = activeSection.next();
     const prevSection = activeSection.prev();
@@ -187,6 +187,8 @@ const viewportScroller = () => {
         },
     };
 };
+
+
 
 $(window).on("wheel", (e) => {
     const deltaY = e.originalEvent.deltaY;
@@ -222,8 +224,7 @@ $(window).on("keydown", (e) => {
     
 });
 
-const mobileDetect = new MobileDetect(window.navigator.userAgent);
-const isMobile = mobileDetect.mobile();
+
 
 $(".wrapper").on("touchmove", e => e.preventDefault());
 
