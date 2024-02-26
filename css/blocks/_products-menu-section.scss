@@ -3,4 +3,17 @@
   //min-height: 100%;
   color: #fff;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: rem(110px) 0 0 rem(85px);
+
+  @include tablets {
+    padding: rem(84px) 0 0 rem(43px);
+  }
+
+  @include phones {
+    padding: rem(74px) 0 0 rem(10px);
+  }
 }
+

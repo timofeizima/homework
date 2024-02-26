@@ -99,7 +99,7 @@
           .fixed-menu__item {    
         &--active {
           .fixed-menu__link {
-            border-color: #3A587E;
+            border-color: #2f3f55;
           }
         }
       }
@@ -107,7 +107,7 @@
       .fixed-menu__link {
         &:before {
           content: "";
-          background: #3A587E;
+          background: #153a66;
         }
       }
     }
