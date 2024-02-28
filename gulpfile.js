@@ -89,6 +89,17 @@ const libs = [
     .pipe(dest('dist/img/icons'));
  });
 
+
+ task('copy:images', () =>{
+  return src('src/img/**/*.*')
+  .pipe(dest('dist/img/'))
+})
+
+task('copy:video', () =>{
+  return src('src/img/video/**/*.*')
+  .pipe(dest('dist/img/video/'))
+})
+
   
  task('server', () => {
   browserSync.init({
@@ -103,13 +114,15 @@ const libs = [
   watch('./src/styles/**/*.scss', series('styles'));
   watch('./src/*.html', series('copy:html'));
   watch('./src/scripts/*.js', series('scripts'));
-  watch('./src/images/icons/*.svg', series('icons'));
+  watch('./src/img/icons/*.svg', series('icons'));
+  watch('./src/img/**/*.*', series('copy:images')) 
+  watch('./src/img/video/*.*', series('copy:video')) 
  });
   
  task('default',
  series(
    'clean',
-   parallel('copy:html', 'styles', 'scripts', 'icons'),
+   parallel('copy:html', 'styles', 'copy:images', 'copy:video', 'scripts', 'icons'),
    parallel('watch', 'server')
  )
 );
@@ -117,5 +130,5 @@ const libs = [
 task('build',
  series(
    'clean',
-   parallel('copy:html', 'styles', 'scripts', 'icons'))
+   parallel('copy:html', 'styles', 'copy:images', 'copy:video', 'scripts', 'icons'))
 );

@@ -13,6 +13,10 @@
   font-weight: 700;
   text-transform: uppercase;
   padding-left: rem(40px);
+
+  @include tablets {
+    padding-left: 20px;
+  }
 }
 
 .products-menu__item {

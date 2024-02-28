@@ -1,5 +1,5 @@
 .product-menu-section {
-  background: url('../img/bg/slider-menu.jpg') center center/cover no-repeat;
+  background: url('./img/bg/slider-menu.jpg') center center/cover no-repeat;
   //min-height: 100%;
   color: #fff;
   position: relative;
@@ -9,7 +9,7 @@
   padding: rem(110px) 0 0 rem(85px);
 
   @include tablets {
-    padding: rem(84px) 0 0 rem(43px);
+    padding: rem(84px) 0 0 0;
   }
 
   @include phones {
