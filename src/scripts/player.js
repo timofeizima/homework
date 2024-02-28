@@ -1,4 +1,4 @@
-;(function() {
+(function() {
     const playBtn = document.querySelector('.video__player-img');
     const video = document.getElementById('player');
     const playerPlayBrn = document.querySelector('.duration__img');

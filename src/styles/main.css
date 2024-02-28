@@ -1582,12 +1582,15 @@ img {
 }
 @media screen and (max-width: 768px) {
   .products-menu__content-main {
-    padding: 42px 53px 42px 38px;
+    padding: 2.2222222222rem 2.1111111111rem;
+    font-size: 0.8888888889rem;
+    font-weight: 400;
+    line-height: 1.3333333333rem;
   }
 }
 @media screen and (max-width: 480px) {
   .products-menu__content-main {
-    padding: 1.6111111111rem 1.9444444444rem 1.6111111111rem 2.1111111111rem;
+    padding: 1.9444444444rem 1.1111111111rem;
   }
 }
 

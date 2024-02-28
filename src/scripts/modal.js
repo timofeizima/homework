@@ -1,3 +1,4 @@
+(function(){
 const validateFields = (form, fieldsArray) => {
     
     fieldsArray.forEach((field) => {
@@ -75,3 +76,5 @@ $(".app-close-modal").click(e => {
 
     $.fancybox.close();
 });
+
+})()

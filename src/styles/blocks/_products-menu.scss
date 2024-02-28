@@ -17,6 +17,7 @@
 
 .products-menu__item {
   display: flex;
+
 }
 
 .products-menu__title {
@@ -66,10 +67,13 @@
   padding: 31px 80px 31px 38px;
 
   @include tablets {
-    padding: 42px 53px 42px 38px;
+    padding: rem(40px) rem(38px);
+    font-size: rem(16px);
+    font-weight: 400;
+    line-height: rem(24px);
   }
 
   @include phones {
-    padding: rem(29px) rem(35px) rem(29px) rem(38px);
+    padding: rem(35px) rem(20px);
   }
 }

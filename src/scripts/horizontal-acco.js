@@ -1,4 +1,4 @@
-;(function(){
+(function(){
   const whatWidth = (item) =>{
     let reqItemWidth = 0;
   
@@ -14,15 +14,6 @@
    
     
     const isMobile = window.matchMedia("(max-width: 850px)").matches;
-    // const isMiniMobile = window.matchMedia("(max-width: 480px)").matches;
-  //   const allItem = container.find('.products-menu');
-  
-  //   allItem.each((ndx, item)=>{
-  //     if (isMiniMobile | !item.hasClass('active')){
-  //     const titleHidden =  item.titles.toggleClass('products-menu__title hidden')
-  //   }
-  //   console.log (titleHidden);
-  // });
   
     if(isMobile){
       reqItemWidth = windowWidth - titlesWidth;

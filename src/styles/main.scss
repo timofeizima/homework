@@ -1,0 +1,42 @@
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+//colors
+$textColor:#666666;
+$colorDark: #292929;
+$colorBtnHero: #000000;
+$colorLight: #ffffff;
+$accent:#FEDB3F;
+$accentHover: #FFD517;
+$btnSecondAccent: #FFD517;
+$advangesBgIcon: #F2F5F4;
+$bgReviews: #F8FAF9;
+
+//z-index
+
+$z-fixed: 50;
+
+
+@import 'media';
+
+
+
+//normalize
+//@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css');
+
+// setups
+@import 'layout';
+//@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+
+
+
+//blocks
+@import './blocks/*.scss';

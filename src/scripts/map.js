@@ -1,3 +1,5 @@
+(function(){
+  
 let myMap;
  
 const init = () => {
@@ -30,3 +32,5 @@ const coords = [
 
  
 ymaps.ready(init);
+
+})()
