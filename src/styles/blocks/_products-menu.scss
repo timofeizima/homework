@@ -13,6 +13,7 @@
   font-weight: 700;
   text-transform: uppercase;
   padding-left: rem(40px);
+  padding-top: 0;
 
   @include tablets {
     padding-left: 20px;
